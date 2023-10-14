@@ -1,0 +1,427 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+  }
+
+li { 
+    list-style: none;
+    
+}
+
+
+
+
+.ul-flex {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-right: 2rem;
+}
+
+#lefty {
+    position: absolute;
+    left: 3rem;
+}
+
+
+.inline {
+   width: 140px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+
+.nav-container {
+    height: 7rem;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+#coming-soon {
+    font-size: 10px;
+    font-weight: 200;
+    color: red;
+    margin-top: 0;
+    padding-right: 45px;
+    
+
+}
+#wid {
+    font-size: 8px;
+    color: rgba(245, 245, 220, 0.452);
+    width: 140px;
+    font-weight: 200;
+}
+
+.grid-container-0 {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 50% 50%;
+    
+   
+}
+/* ----------------  Hero Section Start -----------------*/ 
+/*
+.hero-left {
+    border: 2px solid black;
+    background-color: black;
+    width: 700px;
+    height: 70vh;
+    
+}*/
+
+.hero-left {
+
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 13rem;
+}
+
+
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 3rem;
+   
+    
+}
+#hero-newsletter-text {
+
+    color: red;
+    font-size: 20px;
+
+}
+
+#hero-left-input {
+
+ 
+    z-index: -1;
+    width: 30rem;
+    height: 1.8rem;
+    border: 2px solid black;
+
+
+}
+
+#subscribe_btn {
+
+    padding: 8px 24px;
+    background-color:black;
+    color: white;
+    border: none;
+
+}
+
+.Newsletter-wrapper {
+
+
+    display: flex;
+    gap: 2rem;
+
+}
+
+/*
+#hero-left-text {
+
+    position: absolute;
+    bottom: 20.3rem;
+    z-index: -1;
+
+}
+
+
+
+
+/* ---------- Hero Section End ------- */ 
+
+.line-1 {
+    width: 280px;
+    margin-top: 20px;
+    height: 1px;
+    background-color: black;
+
+}
+
+.globe {
+    width: 5rem;
+}
+
+.btn-mg {
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.item-0 {
+    background-color: white;
+    border-right: 0.5px dashed black;
+    border-left: 0.5px dashed black;
+
+
+    
+}
+
+
+
+.line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+.grid-container-1 {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1% 1fr 1fr 1fr 1fr 1fr 1% ; 
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+   
+}
+
+.item-1 {
+    background-color: white;
+    border-right: 0.5px dashed black;
+    border-left: 0.5px dashed black;
+    
+}
+
+
+.item-flex {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.img-2, .img-3 {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.no-b-l {
+    border-left: 0px;
+    
+}
+
+.no-b-r {
+    border-right: 0px;
+}
+
+#test {
+    width: 400px;
+}
+
+    
+
+
+.has-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+.img-item {
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+
+    
+}
+
+.text-wrapper {
+    display: flex;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+#spz-padding {
+    padding-top: 50px;
+}
+
+#red-vol {
+    color: red;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    
+}
+
+#main-name {
+    font-size: 16px ;
+    
+
+}
+
+h6, h3 {
+    margin: 0;
+}
+
+#grey {
+    color: rgb(129, 126, 126);
+    font-weight: 200;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.text-layout {
+    padding: 0px 30px 10px 30px;
+}
+
+.p-layout {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+} */
+
+#crazy {
+    font-size: 10px;
+    line-height: 10px;
+    background: url(https://i.postimg.cc/KzXSY2HQ/stevejobs.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .02);
+    
+}
+
+
+/*  Footer Styling Starts */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    background-color: black;
+    height: 200px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+
+.footer-container-music {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+#music-img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 0.5px solid white;
+}
+
+#footer-circular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FF7700;
+    position: absolute;
+    left: 5.5rem;
+    
+    
+}
+
+#arrow {
+
+    max-width: 20px;
+    max-height: 20px
+
+}
+
+
+.footer-container-text {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.white-font {
+    color:white;
+    font-weight: 300;
+}
+
+#soundcloud {
+    max-width: 50px;
+    max-width: 50px;
+    
+}
+
+
+/*  Social Media Wrapper */
+
+.social-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    gap: 20px;
+    
+}
+
+.social-icons {
+    height: 30px;
+    width: 30px;
+
+}
